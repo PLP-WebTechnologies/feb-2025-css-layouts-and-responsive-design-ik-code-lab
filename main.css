@@ -1,0 +1,78 @@
+Body {
+    background-color: gray;
+    
+}
+
+.container{
+    width: 80%;
+    margin:0 auto;
+    background-color:cadetblue;
+
+}
+
+
+
+@media only screen and (max-width:500px){
+    body{
+        background-color: blueviolet;
+    }
+    .container{
+        width: 100%;
+        background-color: brown;
+    }
+}
+
+
+
+.flex.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    height: 100vh;
+    background-color: blueviolet;
+}
+
+.item{
+    background-color: azure;
+    padding: 10px;
+    margin: 10px;
+    border: 10px;
+    flex: 1;
+    text-align: center;
+}
+img{
+    border: 10px solid blue;
+    border-radius: 20px;
+    margin: 50px;
+}
+.move{
+    text-align: center;
+    color: blue;
+}
+#footer{
+    text-align: center;
+    color: red;
+    font-size: 50px;
+}
+#tableinfo{
+    font-style: italic;
+
+}
+
+#mytable{
+    margin: auto;
+}
+#mytable th{
+    background-color: chocolate;
+}
+
+#mytable tr th{
+    border: 2px solid;
+    padding: 5px;
+}
+
+#mytable tr td{
+    border: 2px solid;
+    padding: 5px;
+}
